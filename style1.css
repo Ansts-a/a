@@ -1,1 +1,94 @@
+/* Стилі для заголовка та навігаційного меню */
+header {
+    background-color: #3498db; /* Світло-синій фон */
+    color: #fff; /* Білий колір тексту */
+    padding: 15px 0; /* Збільшені внутрішні відступи */
+    text-align: center;
+    margin: 30px; /* Збільшені відступи навколо заголовка */
+}
+
+nav ul li {
+    margin-right: 25px; /* Збільшені відступи між пунктами меню */
+}
+
+/* Основні стилі для body та заголовків */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Змінено шрифт на без засічок */
+    background-color: #ecf0f1; /* Світло-сірий фон */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #3498db; /* Світло-синій фон */
+    color: #fff; /* Білий колір тексту */
+    padding: 15px 0; /* Збільшені внутрішні відступи */
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Темно-сірий колір */
+}
+
+/* Стилі для форми */
+section {
+    background-color: #fff; /* Білий фон форми */
+    padding: 30px; /* Збільшені внутрішні відступи */
+    border-radius: 15px; /* Збільшена закругленість кутів */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Збільшена тінь */
+    width: 350px; /* Збільшена ширина форми */
+    max-height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 2px solid #3498db; /* Світло-синя рамка */
+    margin: 30px;
+}
+
+.form-group {
+    margin-bottom: 25px; /* Збільшений відступ між групами форми */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Збільшений відступ між міткою та полем вводу */
+    font-weight: bold;
+    color: #3498db; /* Світло-синій колір */
+}
+
+/* Закруглені поля вводу */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px; /* Збільшена висота полів вводу */
+    border: 2px solid #3498db; /* Світло-синя рамка */
+    border-radius: 15px; /* Збільшена закругленість кутів */
+}
+
+select {
+    height: 40px; /* Збільшена висота селектора */
+}
+
+/* Оранжева кнопка зеленого кольору при наведенні */
+input[type="submit"] {
+    background-color: #FFA500; /* Оранжевий колір кнопки */
+    color: #fff; /* Білий колір тексту */
+    padding: 12px 25px; /* Збільшені внутрішні відступи кнопки */
+    border: none;
+    border-radius: 15px; /* Збільшена закругленість кутів */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #008000; /* Зелений колір при наведенні */
+}
 
